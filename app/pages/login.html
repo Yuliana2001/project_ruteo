@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/user.png">
+
+    <script src="login.js" defer></script>
+</head>
+<body>
+   <main class="form-container">
+    <div>
+        <h1>iniciar sesión</h1>
+        <p>Ingresa tus credenciales</p>
+        <form id="login-form">
+            <label for="user" class="sr-only">nombre</label>
+            <input type="text" name="user" id="user" placeholder="ingrese nombre">
+            <label for="password" class="sr-only">contraseña</label>
+            <input type="password" name="password" id="password" placeholder="ingrese contraseña">
+            <button type="submit">iniciar sesión</button>
+            <p class="error escondido">error al inicial</p>
+        </form>
+        <p>¿Todavía no tienes cuenta?</p>
+    </div>
+   </main>
+</body>
+</html>
