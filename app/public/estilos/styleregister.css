@@ -1,0 +1,80 @@
+body {
+    font-family: Tahoma;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size:larger;
+    min-height: 100svh;
+}
+.main-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font: 1.2em sans-serif;
+    align-items: start;
+    display: flex;
+  }
+  
+  .main-nav a {
+    padding: 0.5em 1em;
+    display: block;
+  }
+  
+  .push {
+    margin-left: auto;
+  }
+.rectangulo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:  rgba(98, 178, 249, 0.5);
+    width: 50vw;           
+    height: 40vw; 
+    transition: width 1s linear;
+}
+.imagen1{
+    width: 40vw;
+    height: 40vw;
+    background-image: url("/images/Metro-medellin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imagen{
+    display: flex;
+    background-image: url("/images/Medellín3.jpg");
+    background-size: cover; /* La imagen cubre todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+.figuras{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 4vw;
+}
+.container{
+    display: flex;
+    background-color: rgba(2, 18, 18, 0.351);
+    width: 100vw; 
+    height: 45vw; 
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+p {
+    justify-content: center;
+    animation-duration: 3s;
+    animation-name: slide-in;
+    font-size: 4vw;
+
+  }
+  
+  @keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
