@@ -17,10 +17,16 @@ body{
 .form-container{
     width: 500px;
 }
+
+
 form{
     display:flex;
     flex-direction:column;
     gap:10px;
+}
+.register{
+    display:flex;
+    justify-content: center;
 }
 form+p{
     text-align: center;
