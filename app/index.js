@@ -26,3 +26,4 @@ app.get("/", (req,res) => res.sendFile(__dirname+"/pages/login.html"));
 app.get("/register", (req,res) => res.sendFile(__dirname+"/pages/register.html"));
 app.get("/mapa", (req,res) => res.sendFile(__dirname+"/pages/mapa.html"));
 app.get("/index", (req,res) => res.sendFile(__dirname+"/pages/index.html"));
+app.get("/ruta", (req,res) => res.sendFile(__dirname+"/pages/ruta.html"));
